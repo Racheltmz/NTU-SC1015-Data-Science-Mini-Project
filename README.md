@@ -1,6 +1,6 @@
 # Satellite Terrain Image Classification
 
-This project was done as part of our SC1015 Introduction to Data Science and AI module in NTU.
+This project was done as part of our SC1015 Introduction to Data Science and AI module in NTU (Semester 2, AY2023/2024).
 
 # Table of Contents
 
