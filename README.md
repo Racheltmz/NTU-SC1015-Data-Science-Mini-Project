@@ -65,7 +65,7 @@ As expected, all four sklearn models performed very poorly with final test accur
 
 ![image](https://github.com/Racheltmz/NTU-SC1015-Data-Science-Mini-Project/assets/161046482/42b57f6d-a17e-4ece-83cd-ebbc93485e5b)
 
-The CNN model, on the other hand, was more accurate (Baseline Model: 61.07%, Improved Model: 78.33%). The baseline model had overfitting, and we attempted to improve this issue through hyper-parameter tuning with a higher number of epochs, convolutional layers, and batch normalisation for greater accuracy. This resulted in approximately 30% improvement in classification accuracy.
+The CNN model, on the other hand, was more accurate (Baseline Model: 61.07%, Improved Model: 78.33%). The baseline model had overfitting, and we attempted to improve this issue through hyper-parameter tuning with a higher number of epochs, convolutional/max pooling layers, and batch normalisation for greater accuracy. This resulted in approximately 30% improvement in classification accuracy.
 
 ![image](https://github.com/Racheltmz/NTU-SC1015-Data-Science-Mini-Project/assets/161046482/c100932c-72a4-4b26-9527-fbecaa3c7f68)
 
