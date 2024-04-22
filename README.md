@@ -57,8 +57,6 @@ We then developed a baseline Convolutional Neural Network (CNN) model using the 
 
 Finally, we tested two State of the Art models (SOTA), ResNet 50 and Inception-V3, and used them as benchmark models to evaluate the efficacy of our CNN. 
 
-comparison between our CNN and SOTA blah blah.
-
 <a id="insights"></a>
 
 ## Key Insights
