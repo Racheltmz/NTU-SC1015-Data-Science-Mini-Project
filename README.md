@@ -66,6 +66,8 @@ As expected, all four sklearn models performed very poorly with final test accur
 CNN performance blah 
 
 The two SOTA models were highly accurate (ResNet50: 97.21%, Inception-V3: 95.47%) and capable of distinguishing between the classes, with no observable overfitting. 
+![image](https://github.com/Racheltmz/NTU-SC1015-Data-Science-Mini-Project/assets/161046482/7a979ff4-291a-4a22-9ae8-b82860c9a4ef)
+
 
 Overall, the models were least confident in the following 4 classes: low-density buildings, high density buildings, river, and storage tanks. For river and storage tanks, it is likely a result of the lack of images and that these classes can easily be confused for other classes (rivers can be mistaken for harbours, runways, and forests | storage tanks can be mistaken as low density buildings or harbours)
 For buildings, it is likely that the model gets confused between the two classes (Low-density Buildings and High-density Buildings).
@@ -79,3 +81,18 @@ For buildings, it is likely that the model gets confused between the two classe
 <a id="references"></a>
 
 ## References
+
+Guilmartin, J., & Taylor, J. (2024, April 18). Unmanned aerial vehicles (UAVs). Retrieved from Encylopaedia Brittanica : https://www.britannica.com/technology/unmanned-aerial-vehicle
+
+Fayaz, M., Nam, J., Dang, L. M., Song, H.-K., & Moon, H. (2024). Land-cover classification using deep learning with high-resolution remote-sensing imagery. Applied Sciences, 14(5), 1844. https://doi.org/10.3390/app14051844
+
+HHLH Sky GmbH. (2023, December 6). Strategic Benefits of Using Automated Drones for Enterprise Operations. (HHLH Sky GmbH) Retrieved from https://www.linkedin.com/pulse/strategic-benefits-using-automated-drones-enterprise-operations-zlhse/
+
+Mohsan, S. A., Othman, N. Q., Yanglong, L., Alsharif, M. H., & Muhammad, A. K. (2023). Unmanned aerial vehicles (UAVs): practical aspects, applications, open challenges, security issues, and future trends. Intell Serv Robot, 16(1), 109–137.
+
+IBM. (n.d.). What are convolutional neural networks? Retrieved from IBM: https://www.ibm.com/topics/convolutional-neural-networks
+
+Ng, W. K. (2022, September 28). Singapore Army and RSAF link drones for the first time to give soldiers more intel. Retrieved from The Straits Times: https://www.straitstimes.com/singapore/army-and-airforce-link-drones-for-the-first-time-to-give-soldiers-more-intel
+
+Papers with Code. (n.d.). Papers with code—Eurosat benchmark (Image classification). Retrieved from Papers with Code: https://paperswithcode.com/sota/image-classification-on-eurosat]
+
