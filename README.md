@@ -10,6 +10,18 @@ This project was done as part of our SC1015 Introduction to Data Science and AI 
 4. [Key Insights](#insights)
 5. [References](#references)
 
+## Project Structure
+
+| Folder | Purpose                                     |
+| ------ | ------------------------------------------- |
+| docs   | Presentation slides.                        |
+| images | Images used in the notebook.                |
+| models | Models saved from our training.             |
+
+## Dataset
+Original dataset: https://www.kaggle.com/datasets/apollo2506/landuse-scene-classification<br>
+Modified dataset: https://www.kaggle.com/datasets/racheltanminzhi/landuse
+
 <a id="overview"></a>
 
 ## Overview
@@ -58,9 +70,9 @@ For buildings, it is likely that the model gets confused between the two classe
 
 ## Contributors
 
-- Rachel Tan Min Zhi
-- Saffron Salmah Yen Lim
-- Sanjana Shanmugasundaram
+- [Rachel Tan Min Zhi](https://github.com/racheltmz)
+- [Saffron Salmah Yen Lim](https://github.com/Ripleyyyyy)
+- [Sanjana Shanmugasundaram](https://github.com/snnjana)
 
 <a id="references"></a>
 
