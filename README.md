@@ -53,8 +53,7 @@ An augmented version of the UCMerced (University of California Merced) Land Use 
 
 Minor data preparation was conducted (data normalisation and image resizing from 256x256 to 100x100px) before carrying out Exploratory Data Analysis. Next, simple sklearn models like K-Nearest neighbours, Decision Tree Classifier, Random Forest Classifier, and Gaussian Naive Bayes, were trained on the image data to act as baseline models for future comparison. 
 
-
-We then developed a Convolutional Neural Network (CNN) (blahblahblah blah). 
+We then developed a baseline Convolutional Neural Network (CNN) model using the Adam optimiser and trained it, then experimented and developed an improved model based on any observed issues.
 
 Finally, we tested two State of the Art models (SOTA), ResNet 50 and Inception-V3, and used them as benchmark models to evaluate the efficacy of our CNN. 
 
@@ -68,7 +67,7 @@ As expected, all four sklearn models performed very poorly with final test accur
 
 ![image](https://github.com/Racheltmz/NTU-SC1015-Data-Science-Mini-Project/assets/161046482/42b57f6d-a17e-4ece-83cd-ebbc93485e5b)
 
-CNN performance blah 
+The CNN model, on the other hand, was more accurate (Baseline Model: 61.07%, Improved Model: 78.33%). The baseline model had overfitting, and we attempted to improve this issue through hyper-parameter tuning with a higher number of epochs, convolutional layers, and batch normalisation for greater accuracy. This resulted in approximately 30% improvement in classification accuracy.
 
 ![image](https://github.com/Racheltmz/NTU-SC1015-Data-Science-Mini-Project/assets/161046482/c100932c-72a4-4b26-9527-fbecaa3c7f68)
 
