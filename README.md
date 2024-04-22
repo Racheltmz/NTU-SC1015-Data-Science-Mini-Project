@@ -63,9 +63,18 @@ comparison between our CNN and SOTA blah blah.
 
 As expected, all four sklearn models performed very poorly with final test accuracies of 20.20% (Gaussian Naive Bayes) to 31.19% (Random Forest Classifier). As the Random Forest Classifier had the best performance time, we attempted to improve it through hyper-parameter tuning with stratified K fold cross validation to reduce overfitting. However, this only produced marginal improvements in accuracy. 
 
+![image](https://github.com/Racheltmz/NTU-SC1015-Data-Science-Mini-Project/assets/161046482/42b57f6d-a17e-4ece-83cd-ebbc93485e5b)
+
 CNN performance blah 
 
+![image](https://github.com/Racheltmz/NTU-SC1015-Data-Science-Mini-Project/assets/161046482/c100932c-72a4-4b26-9527-fbecaa3c7f68)
+
+
+![image](https://github.com/Racheltmz/NTU-SC1015-Data-Science-Mini-Project/assets/161046482/c2a649f6-0783-4f38-94b1-fa6705c6db7c)
+
+
 The two SOTA models were highly accurate (ResNet50: 97.21%, Inception-V3: 95.47%) and capable of distinguishing between the classes, with no observable overfitting. 
+
 ![image](https://github.com/Racheltmz/NTU-SC1015-Data-Science-Mini-Project/assets/161046482/7a979ff4-291a-4a22-9ae8-b82860c9a4ef)
 
 
