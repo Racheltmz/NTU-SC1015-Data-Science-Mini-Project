@@ -44,6 +44,8 @@ How can we train an accurate terrain classification model using satellite imager
 
 ## Workflow
 
+![workflow](./images/workflow.png)
+
 An augmented version of the UCMerced (University of California Merced) Land Use dataset from [Kaggle](https://www.kaggle.com/datasets/apollo2506/landuse-scene-classification) was used for model training and development. The dataset contained 21 classes with 500 images per class (100 original images and 400 augmented images), of which two classes were ommitted (agriculture and chaparral) as they were not relevant to the context of our project. We merged the remaining 19 classes into 10 classes based on similarity (e.g., buildings + denseresidential + mediumresidential = highdensitybuildings). The final 10 classes are as follows: highdensitybuildings, lowdensity buildings, roads, recreational, harbour, beach, forest, river, runway, and storagetanks. 
 
 Minor data preparation was conducted (data normalisation and image resizing from 256x256 to 100x100px) before carrying out Exploratory Data Analysis. Next, simple sklearn models like K-Nearest neighbours, Decision Tree Classifier, Random Forest Classifier, and Gaussian Naive Bayes, were trained on the image data to act as baseline models for future comparison. 
